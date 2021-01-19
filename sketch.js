@@ -36,6 +36,11 @@ function draw() {
   drawSprites();
  
 }
+function keyPressed(){
+	if(keycode===UP_ARROW){
+	Matter.Body.applyForce(paper1.body,paper1.body.position{x:250,y:-250})
+	}
+}
 
 
 
